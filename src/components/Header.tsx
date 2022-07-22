@@ -18,9 +18,10 @@ export function Header({ title, ...rest }: Props) {
       {...rest}
     >
       <IconButton icon={<CaretLeft size={24} color={colors.gray[200]} />} />
+
       <Heading
         color="gray.100"
-        textAlign="center"
+        textAlign="denter"
         fontSize="lg"
         flex={1}
         ml={6}
